@@ -8,4 +8,5 @@
 import Foundation
 
 //problem1012()
-problem1003()
+//problem1003()
+problem1654()
