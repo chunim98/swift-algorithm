@@ -13,4 +13,5 @@ import Foundation
 //problem11404()
 //problem18870()
 //problem1931()
-problem5430()
+//problem5430()
+problem2667()
