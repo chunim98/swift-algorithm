@@ -5,7 +5,7 @@
 //  Created by 신정욱 on 3/8/25.
 //
 
-import Foundation
+//import Foundation
 
 //problem1012()
 //problem1003()
@@ -18,4 +18,5 @@ import Foundation
 //problem10026()
 //problem1149()
 //problem1697()
-problem1541()
+//problem1541()
+problem1389()
