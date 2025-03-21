@@ -20,4 +20,5 @@
 //problem1697()
 //problem1541()
 //problem1389()
-problem16928()
+//problem16928()
+problem1932()

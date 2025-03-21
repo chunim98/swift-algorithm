@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5113EA352D8D544200153ECD /* 1932 정수 삼각형.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5113EA342D8D543F00153ECD /* 1932 정수 삼각형.swift */; };
 		51263CD82D8154F100962EF8 /* 2667 단지번호붙이기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51263CD72D8154EF00962EF8 /* 2667 단지번호붙이기.swift */; };
 		51263CDA2D8169DE00962EF8 /* 10026 적록색약.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51263CD92D8169D900962EF8 /* 10026 적록색약.swift */; };
 		512BE4F52D80106D009F6652 /* 5430 AC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BE4F42D801064009F6652 /* 5430 AC.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5113EA342D8D543F00153ECD /* 1932 정수 삼각형.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1932 정수 삼각형.swift"; sourceTree = "<group>"; };
 		51263CD72D8154EF00962EF8 /* 2667 단지번호붙이기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2667 단지번호붙이기.swift"; sourceTree = "<group>"; };
 		51263CD92D8169D900962EF8 /* 10026 적록색약.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10026 적록색약.swift"; sourceTree = "<group>"; };
 		512BE4F42D801064009F6652 /* 5430 AC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5430 AC.swift"; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		51D713882D7C3B3900352F98 /* Baekjoon */ = {
 			isa = PBXGroup;
 			children = (
+				5113EA342D8D543F00153ECD /* 1932 정수 삼각형.swift */,
 				51BE66BB2D8A94D800B26546 /* 16928 뱀과 사다리 게임 .swift */,
 				51EA48F72D87F72800695B98 /* 1389 케빈 베이컨의 6단계 법칙 .swift */,
 				516A875F2D86C01800B3CC2F /* 1541 잃어버린 괄호.swift */,
@@ -180,6 +183,7 @@
 				516A87602D86C01C00B3CC2F /* 1541 잃어버린 괄호.swift in Sources */,
 				51B923A52D7EB2FC005DFB43 /* 1931 회의실 배정.swift in Sources */,
 				51263CD82D8154F100962EF8 /* 2667 단지번호붙이기.swift in Sources */,
+				5113EA352D8D544200153ECD /* 1932 정수 삼각형.swift in Sources */,
 				51C657A72D83FFA500AFEB0E /* 1697 숨바꼭질.swift in Sources */,
 				51263CDA2D8169DE00962EF8 /* 10026 적록색약.swift in Sources */,
 				519DE73F2D7D5AD900CE567D /* 1654 랜선 자르기.swift in Sources */,
