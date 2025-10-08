@@ -4,32 +4,31 @@
 //
 //  Created by 신정욱 on 3/9/25.
 //
-
 // https://www.acmicpc.net/problem/11404
 
 func problem11404() {
-    let n = Int(readLine()!)! // 노드
-    let m = Int(readLine()!)! // 간선
-    var graph = [[Int]](repeating: [Int](repeating: .max, count: n+1), count: n+1)
+    let n = Int(readLine()!)!
+    let m = Int(readLine()!)!
+    var graph = [[Int]](repeating: .init(repeating: .max, count: n+1), count: n+1)
+    
+    for i in 1...n { graph[i][i] = 0 }
     
     for _ in 0..<m {
-        let input = readLine()!.split(separator: " ").map { Int($0)! }
-        let (a, b, c) = (input[0], input[1], input[2]) // 출발, 도착, 비용
-        graph[a][b] = min(graph[a][b], c) // 같은 노선이 있을 수 있음
+        let abc = readLine()!.split(separator: " ").map { Int($0)! }
+        let (a, b, c) = (abc[0], abc[1], abc[2])
+        graph[a][b] = min(c, graph[a][b])
     }
     
-    for k in 1...n {
-        graph[k][k] = 0 // 자신에게 가는 비용은 0
-        
-        for i in 1...n {
-            for j in 1...n {
-                guard graph[i][k] != .max, graph[k][j] != .max else { continue }
-                graph[i][j] = min(graph[i][j], graph[i][k]+graph[k][j])
+    for i in 1...n {
+        for j in 1...n {
+            for k in 1...n {
+                guard graph[j][i] != .max, graph[i][k] != .max else { continue }
+                graph[j][k] = min(graph[j][k], graph[j][i] + graph[i][k])
             }
         }
     }
     
     graph[1...].forEach {
-        print($0[1...].map { $0 == .max ? "0" : String($0) }.joined(separator: " "))
+        print($0[1...].map { $0 == .max ? "0" : "\($0)" }.joined(separator: " "))
     }
 }
