@@ -43,4 +43,5 @@
 //problem11279()
 //problem9461()
 //problem15988()
-problem5525()
+//problem5525()
+problem1806()
